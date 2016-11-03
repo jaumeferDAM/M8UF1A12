@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Nombre"
+        android:layout_width="578dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/twNombre" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Introduce tu nombre"
+        android:ems="10"
+        android:id="@+id/etNombre" />
+
+    <TextView
+        android:text="Edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/twEdad" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Introduce tu edad"
+        android:ems="10"
+        android:id="@+id/etEdad" />
+
+    <TextView
+        android:text="Sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/twSexo" />
+
+    <RadioGroup
+        android:layout_width="551dp"
+        android:layout_height="47dp"
+        android:id="@+id/rgSexo">
+
+        <RadioButton
+            android:text="Hombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbHombre"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Mujer"
+            android:id="@+id/rbMujer"
+            android:layout_weight="1"
+            android:checked="false" />
+    </RadioGroup>
+
+    <TextView
+        android:text="Fumas?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/twFumar" />
+
+    <CheckBox
+        android:text="Si"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkFumar" />
+
+    <Button
+    android:text="Cuando voy a morir?"
+    android:layout_width="wrap_content"
+    android:layout_height="86dp"
+    android:id="@+id/bCalcular"
+    android:layout_gravity="end"/>
+
+    <TextView
+        android:text="Bebes"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/twBeber" />
+
+    <CheckBox
+        android:text="Si"
+        android:layout_width="322dp"
+        android:layout_height="21dp"
+        android:id="@+id/chkBeber"
+        android:layout_gravity="left"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end">
+
+    </LinearLayout>
+
+</LinearLayout>
